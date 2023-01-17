@@ -1,0 +1,117 @@
+body {
+  width: 50%;
+  margin: 0 auto;
+}
+
+header {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  text-align: center;
+
+}
+
+header h1 {
+  font-size: 90px;
+  color: #2c3e50;
+  font-weight: 200;
+}
+
+
+.input {
+  font-size: 20px;
+  color: #2c3e50;
+  width: -webkit-fill-available;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #2c3e50;
+  padding: 5px;
+}
+
+.task {
+  background: #34495e;
+  padding: 15px;
+  /* margin: 5px; */
+  margin-top: 5px;
+  overflow: hidden;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.task span {
+  color: #ffffff;
+}
+
+.icon {
+  float: right;
+  margin-right: 20px;
+}
+
+article {
+  display: grid;
+}
+
+article ul {
+  padding: 0;
+  margin: 0;
+
+}
+
+.listUl {
+  transition: all 1s ease-in-out;
+}
+
+.edit-todo {
+  width: 85%;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.button {
+  padding: 10px;
+  font-size: 14px;
+  color: #6c6777;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  /* width: 100px; */
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.button.selected {
+  color: #FFF;
+  background-color: #6c6777;
+  transition: ease-in-out 1s;
+}
+
+.button.clear {
+  float: right;
+  color: #FFF;
+  background-color: #ee1630;
+  width: 170px;
+}
+
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #6c6777;
+  opacity: 1;
+  font-family: 'Open Sans';
+  /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #6c6777;
+  font-family: 'Open Sans';
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #6c6777;
+  font-family: 'Open Sans';
+}
